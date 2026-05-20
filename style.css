@@ -1,1 +1,155 @@
-/* Add you CSS here */
+/* Simple CSS for a cute pastel blue and orange portfolio design */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(180deg, #f3f7ff 0%, #fef7ec 100%);
+  color: #1b2d42;
+}
+
+.page-width {
+  width: 90%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  background-color: #6f92c8;
+  color: #fff8eb;
+  padding: 40px 0;
+  border-bottom: 4px solid #f2ab6a;
+  border-radius: 0 0 24px 24px;
+  box-shadow: 0 10px 25px rgba(90, 110, 150, 0.12);
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.1rem;
+}
+
+.subtitle {
+  margin-top: 10px;
+  font-size: 1rem;
+  opacity: 0.92;
+}
+
+.main-nav {
+  margin-top: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  padding: 12px;
+  border: 1px solid #f3d3b5;
+  background-color: rgba(255, 250, 245, 0.95);
+  border-radius: 16px;
+}
+
+.main-nav a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #2c4b6e;
+  text-decoration: none;
+  padding: 10px 14px;
+  border-radius: 12px;
+  transition: background 0.2s ease;
+}
+
+.main-nav a:hover {
+  background-color: rgba(242, 171, 106, 0.16);
+}
+
+.main-nav img {
+  width: 20px;
+  height: 20px;
+}
+
+.section {
+  background-color: #ffffff;
+  border: 1px solid #d7e3f0;
+  padding: 22px;
+  margin-top: 20px;
+  border-radius: 18px;
+  box-shadow: 0 7px 18px rgba(99, 120, 150, 0.08);
+}
+
+.section h2 {
+  margin-top: 0;
+  color: #3b5b86;
+}
+
+.card {
+  background-color: #fbf4ea;
+  border: 1px solid #f3d3b5;
+  padding: 18px;
+  margin-top: 16px;
+  border-radius: 16px;
+  line-height: 30px;
+}
+
+.card h3 {
+  margin: 0;
+  color: #3c5a84;
+}
+
+.card p {
+  margin: 0;
+  line-height: 1.6;
+}
+
+.contact-buttons {
+  margin-top: 16px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.contact-button {
+  display: inline-block;
+  padding: 12px 18px;
+  background-color: #f2ab6a;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 12px;
+  font-weight: bold;
+  border: 1px solid transparent;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.contact-button:hover {
+  background-color: #e88c41;
+  transform: translateY(-2px);
+}
+
+.skill-grid {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.skill-card {
+  flex: 1 1 calc(33.333% - 10px);
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  color: #4f6a89;
+}
+
+@media (max-width: 600px) {
+  .page-width {
+    padding: 16px;
+  }
+
+  .header {
+    padding: 30px 0;
+  }
+
+  .skill-card {
+    flex: 1 1 100%;
+  }
+}

@@ -2,10 +2,78 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Personal Site</title>
+  <title>Jade Tu Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Add your HTML content here -->
+  <header class="header">
+    <div class="page-width" id="top">
+      <h1>Jade Tu 🌟</h1>
+      <p class="subtitle">Undergraduate Student learning Web Development.</p>
+      <nav class="main-nav">
+        <a href="#top"><img src="img/home.png" alt="Home">Home</a>
+        <a href="#about"><img src="img/info.png" alt="About">About</a>
+        <a href="#skills"><img src="img/skills.png" alt="Skills">Skills</a>
+        <a href="#projects"><img src="img/projects.png" alt="Projects">Projects</a>
+        <a href="#contact"><img src="img/contact.png" alt="Contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-width">
+    <section class="section intro" id="about">
+      <h2>About Me</h2>
+      <p>Hi! I am a college student learning HTML and CSS. This portfolio shares my projects, skills, and growth.</p>
+    </section>
+
+    <section class="section" id="projects">
+      <h2>Projects</h2>
+      <div class="card">
+        <h3>Project 1: Project Portfolio</h3>
+        <p>Utilized AI tools, HTML, and CSS to create an appealing portfolio page. 
+        </p>
+      </div>
+      <div class="card">
+        <h3>Project 2</h3>
+        <p>N/A</p>
+      </div>
+      <div class="card">
+        <h3>Project 3</h3>
+        <p>N/A</p>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <h2>Skills</h2>
+      <div class="skill-grid">
+        <div class="card skill-card">
+          <h3>HTML</h3>
+        </div>
+        <div class="card skill-card">
+          <h3>CSS</h3>
+        </div>
+        <div class="card skill-card">
+          <h3>Design Basics</h3>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <h2>Contact</h2>
+      <div class="card contact-card">
+        <h3>Say Hello</h3>
+        <div class="contact-buttons">
+          <a class="contact-button" href="https://github.com/GokuJeans" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="contact-button" href="https://www.linkedin.com/in/jade-tu-1002b6295/" target="_blank" rel="noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="page-width">
+      <p>Built with simple HTML and CSS for beginner-friendly learning.</p>
+    </div>
+  </footer>
 </body>
 </html>
