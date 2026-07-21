@@ -94,6 +94,18 @@ body {
   color: #3c5a84;
 }
 
+.card a {
+  font-weight: bold;
+  margin: 0;
+  color: #3c5a84;
+  font-size: 19px;
+  text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
 .card p {
   margin: 0;
   line-height: 1.6;
